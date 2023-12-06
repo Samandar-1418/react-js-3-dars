@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input {
+    padding: 15px;
+    width: 60%;
+    background-color: pink;
+    color: rgb(26, 24, 23);
+    border: none;
+    margin-right: 15px;
+    border-radius:5px
+}
+input:checked{
+    transform: translate(1.1px,1.1px);
+    background-color:rgb(240, 158, 171);
+    color: pink;
+    border:none;
+}
+input::placeholder{
+    color:white;
+}
